@@ -1,0 +1,25 @@
+package com.dateandtime_api;
+
+import java.time.LocalDate;
+
+public class DateDemo3 {
+	
+	public static void main(String[] args) {
+		
+		
+		LocalDate CurrentDate = LocalDate.now();
+		
+		System.out.println(CurrentDate);
+		
+		int day = CurrentDate.getDayOfMonth();
+		
+		int month= CurrentDate.getMonthValue();
+		
+		int year = CurrentDate.getYear();
+		
+		System.out.println(day+"/"+month+"/"+year);
+		
+		
+	}
+
+}

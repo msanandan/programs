@@ -1,0 +1,11 @@
+package com.dateandtime_api;
+
+public class LocalDate {
+	
+	public static void main(String[] args) {
+		
+		
+		LocalDate currentDate = LocalDate.now();
+	}
+
+}

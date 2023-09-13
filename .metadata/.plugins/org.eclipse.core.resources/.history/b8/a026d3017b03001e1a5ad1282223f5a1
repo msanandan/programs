@@ -1,0 +1,11 @@
+package com.Arrys.msr;
+
+public class Subtract_Two_Arrays {
+	
+	public static void main(String[] args) {
+		
+		
+		int rows,cols;
+	}
+
+}

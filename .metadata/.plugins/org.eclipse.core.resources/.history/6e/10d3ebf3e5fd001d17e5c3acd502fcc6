@@ -1,0 +1,85 @@
+package com.msr.controlstatements;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class MonthWise {
+	public static void main(String[] args)
+	throws IOException{
+		
+		System.out.println("Enter Day Number:");
+		
+		InputStreamReader isr = new InputStreamReader(System.in);
+		
+		BufferedReader br=new BufferedReader(isr);
+		
+		String result = br.readLine();
+		
+		int day=Integer.parseInt(result);
+		
+	   switch (day) {
+				
+			case 1:
+				
+				System.out.println("january");
+			break;
+			 
+			case 2:
+				
+				System.out.println("February");
+				break;
+				
+			case 3:
+				
+				System.out.println("march");
+				break;
+			case 4:
+				
+				System.out.println("Aprial");
+				
+				break;
+			case 5:
+
+                 System.out.println("may");
+                 break;
+			case 6:
+				System.out.println("june");
+				break;
+			case 7:
+				
+				System.out.println("july");
+				break;
+			case 8:
+				
+				System.out.println("august");
+				break;
+			case 9:
+				
+				System.out.println("september");
+				break;
+			case 10:
+			
+				System.out.println("october");
+				break;
+			case 11:
+			System.err.println("november");
+			break;
+			case 12:
+				
+				System.out.println("december");
+				break;
+				default:
+					System.out.println("no month found");
+					
+				}
+	   }
+			
+	   }
+
+	
+	
+		
+	
+
+

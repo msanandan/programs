@@ -1,0 +1,24 @@
+
+package com.Arrys.msr;
+
+public class Find_Sum_Of_Matrix {
+	
+	public static void main(String[] args) 
+		
+	
+		{
+	int a[][] = {{1,2,3},{4,5,6},{7,8,9}};
+	
+	int sum =MatrixSum(a); 
+	
+	System.out.println("The sum of matrix elements = "+sum);
+	}
+	public static int matrixSum(int[][]a) {
+		
+		int sum = 0;
+		for(int[] row : a) {
+			
+		}
+	}
+	
+}

@@ -1,0 +1,16 @@
+package com.dateandtime_api;
+
+import java.time.LocalTime;
+
+public class TimeDemo {
+	
+	public static void main(String[] args) {
+		
+		LocalTime localTime = LocalTime.now();
+		
+		System.out.println(localTime);
+		
+		int hour = localTime.getHour();
+	}
+
+}

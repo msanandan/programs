@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;javademo/src/Twofilescontentintothird/cods&apos; to &apos;cods.txt&apos;" description="Rename resource &apos;cods&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Twofilescontentintothird/cods" name="cods.txt" stamp="1690354550605" updateReferences="true"/>
+</session>

@@ -1,0 +1,11 @@
+package com.dateandtime_api;
+
+public class DateDemo1 {
+
+	public static void main(String[] args) {
+		
+		
+		Date d =new Date();
+	}
+	
+}

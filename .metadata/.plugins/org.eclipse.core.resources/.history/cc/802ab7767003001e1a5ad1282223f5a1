@@ -1,0 +1,15 @@
+package com.Arrys.msr;
+
+public class RowSum_Column_Sum {
+	public static void main(String[] args) {
+		
+		int row = 0;
+		
+		int column = 0;
+		
+		int a[][]=null;
+		
+		
+	}
+
+}

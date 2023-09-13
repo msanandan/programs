@@ -1,0 +1,28 @@
+package com.Collecters;
+
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class IntArrayToStream {
+	
+	
+
+	public static void main(String[] args) {
+		
+		
+		int [] arr1 = {1, -5, 3, 14, -2,17};
+		
+		int secondlargestNumber = Arrays.stream(arr1).boxed().sorted(Comparator.reverseOrder()).skip(1).findFirst().get();
+		
+		
+		
+		System.out.println("the second minimum number is" + secondlargestNumber);
+		
+	int secondLOwestNumber = Arrays.stream(arr1).boxed().sorted().skip(1).findFirst().get();
+            
+		int sum = (secondlargestNumber + secondLOwestNumber);
+		
+		System.out.println(sum);
+	}
+
+}

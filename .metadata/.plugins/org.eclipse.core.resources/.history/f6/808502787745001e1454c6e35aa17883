@@ -1,0 +1,38 @@
+package com.example.CarProject;
+
+public class Car {
+	
+	
+	private DieselEngine dieselengine;
+	
+	
+	
+	public DieselEngine getDieselengine() {
+		return dieselengine;
+	}
+
+	public void setDieselengine(DieselEngine dieselengine) {
+		this.dieselengine = dieselengine;
+	}
+
+	public Car() {
+		
+		System.out.println("car class construtor called");
+	}
+
+	public void drive() {
+		
+		int result = dieselengine.start();
+
+      
+		if(result>=1) {
+			
+			System.out.println("Journey started successfully");
+		}else {
+			
+			System.out.println("Engine has some problem");
+	}
+
+      
+	}
+}

@@ -1,0 +1,13 @@
+package com.predicateExample;
+
+import java.util.function.Consumer;
+
+public class ComsumerExample {
+	
+	public static void main(String[] args) {
+		
+		
+		Consumer<String>System.Out.println(name+ ",Good Evening");
+	}
+
+}

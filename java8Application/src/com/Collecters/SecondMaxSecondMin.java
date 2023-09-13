@@ -1,0 +1,20 @@
+package com.Collecters;
+
+import java.util.Arrays;
+
+public class SecondMaxSecondMin {
+	
+	public static void main(String[] args) {
+		
+		int[] arr1 = {4, -5, 3, 14, -2,17};
+		
+		int secMax = Arrays.stream(arr1).distinct().sorted().skip(arr1.length -2).findFirst().orElse(0);
+		
+		int secMin = Arrays.stream(arr1).distinct().sorted().skip(1).findFirst().orElse(0);
+		
+		int sum = secMax + secMin;
+		
+		System.out.println("second max ->" + secMax + ",Secondmin->" +"\n And the Sum is=>"+ sum);                
+	}
+
+}

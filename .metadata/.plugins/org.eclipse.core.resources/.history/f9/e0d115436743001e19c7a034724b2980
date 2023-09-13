@@ -1,0 +1,10 @@
+package com.example.FirstSample;
+
+public class AmzonPay implements Payment{
+
+	public String Pay() {
+		// TODO Auto-generated method stub
+		return "AmzonPay";
+	}
+   
+}

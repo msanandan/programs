@@ -1,0 +1,23 @@
+package com.dateandtime_api;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class DateDemo1 {
+
+	public static void main(String[] args) {
+		      	
+		
+		Date d =new Date();
+		
+		System.out.println(d);
+		
+		//converting date obj format to String format-->format(); 	 
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		
+		String formatString = sdf.format(d);
+		
+		System.out.println(formatString);
+	}	
+	
+}

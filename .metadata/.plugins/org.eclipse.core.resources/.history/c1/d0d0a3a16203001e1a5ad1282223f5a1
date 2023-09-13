@@ -1,0 +1,36 @@
+//add element in arry
+package com.Arrys.msr;
+
+public class Add_Element_Array {
+	
+	public static void main(String[] args) {
+		
+		public static int[] addX(int n,int arr[],intx)
+		
+		{
+			int i;
+			
+			int newarr[] = new int[n+1];
+			
+			for(i = 0;i < n; i++)
+				
+				newarr[i] = arr[i];
+			
+			newarr[n] = x;
+			
+			return newarr;
+			
+		}
+		
+		public static void main(String[]args)
+		{
+			int n = 10;
+			int i;
+			int arr[] = {1,2,3,4,5,6,7,8,9,10};
+			
+			System.out.println("Initial Arry :\n" + Arrays.toSring(arr));
+		}
+		
+	}
+
+}

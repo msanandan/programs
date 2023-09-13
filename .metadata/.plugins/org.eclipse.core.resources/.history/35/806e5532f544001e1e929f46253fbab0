@@ -1,0 +1,10 @@
+package com.example.CarProject;
+
+public class DieselEngine {
+	
+	public DieselEngine() {
+		
+		System.out.println("Diesel Engine Constructor called");
+	}
+
+}

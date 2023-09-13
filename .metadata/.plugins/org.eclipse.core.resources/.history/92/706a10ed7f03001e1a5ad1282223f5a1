@@ -1,0 +1,14 @@
+package com.Arrys.msr;
+
+public class Transpose_Matrix {
+	
+	public static void main(String[] args) {
+		Object[] a;
+		int row = a.length;
+		int column = a[0].length;
+		
+		int temp[][] = new int[row][column];
+				
+	}
+
+}

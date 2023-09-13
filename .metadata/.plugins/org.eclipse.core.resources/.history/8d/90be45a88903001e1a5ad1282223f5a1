@@ -1,0 +1,26 @@
+package com.Arrys.msr;
+
+public class Gcd_Arrys {
+	class Main{
+	public static void main(String[] args) {
+		
+		
+		int array[] = {1,2,3,4};
+		int result = array[0];
+		
+		for(int i=1;i<array.length;i++) 
+			
+			result = findGCD();
+	}
+		System.out.print("GCD: "+result);
+   }
+	public static int findGCD(inta,intb) {
+		
+		if(b ==0)
+			return a;
+		return findGCD(b,a%b)
+	
+	}
+}
+
+}
